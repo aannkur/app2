@@ -1,0 +1,220 @@
+.bg-services {
+    background-image: url(/src/images/services.jpg);
+    background-position: 1.2rem 53.2rem;
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.7rem;
+}
+
+.mt7-7{
+    margin-top: 7.7rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.centerItem{
+    align-items: center;
+}
+
+.navy-blue {
+    background-color: rgb(33, 37, 41);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-offWhite{
+    background-color: rgb(240, 240, 240);
+}
+
+.white {
+    color: white;
+}
+
+.white-light {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.black {
+    color: black;
+}
+
+.black-light {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.red{
+    color: rgb(243, 51, 51);
+}
+
+.w7{
+    width: 70rem;
+}
+
+.wh100 {
+    width: 100%;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.no-border {
+    border-radius: none;
+    outline: none;
+}
+
+.shadow {
+    box-shadow: 2px 4px 6px 0.5px rgba(128, 128, 128, 0.425);
+    ;
+}
+
+.radius-2rem {
+    border-radius: 2rem;
+}
+
+.radius-1rem {
+    border-radius: 1rem;
+}
+
+.overflow{
+    object-fit: cover;
+}
+
+.maxwh{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wh4{
+    width: 4rem;
+    height: 4rem;
+}
+
+.wh8{
+    width: 8rem;
+    height: 9rem;
+}
+
+.wh18{
+    width: 18rem;
+    height: 18rem;
+}
+
+.wh25{
+    width: 25rem;
+    height: 25rem;
+}
+
+.wh30{
+    width: 30rem;
+    height: 30rem;
+}
+.wh73{
+    width: 71.2rem;
+    height: 38rem;
+}
+
+.wh63{
+    width: 45rem;
+    height: 35rem;
+}
+
+.whimg{
+    width: 34rem;
+    height: 25rem;
+}
+
+.radius-top1rem{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold3{
+    font-weight: 300;
+}
+
+.bold4{
+    font-weight: 400;
+}
+
+.bold5{
+    font-weight: 500
+}
+
+.bold6{
+    font-weight: 600
+}
+
+.bold7{
+    font-weight: 700
+}
+
+.bold8{
+    font-weight: 800
+}
+
+.bold9{
+    font-weight: 900
+}
+
+.text{
+    font-size: 2.5rem;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.sepratorRed{
+    width: 20rem;
+    height: 0.3rem;
+    background-color: rgb(107, 0, 0);
+}
+
+.neg-mt6{
+    margin-top: -6rem;
+}
+
+.neg-ml8{
+    margin-left: -8rem;
+}
+
+.ml1{
+    margin-left: 1rem;
+}
+
+.ml6{
+    margin-left: 6rem;
+}
+
+.circleImg{
+    border-radius: 50%;
+}

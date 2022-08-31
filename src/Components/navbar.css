@@ -1,0 +1,139 @@
+.menubg{
+    background-image: url(/src/images/menu-bg4.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.menubg1{
+    background-image: url(/src/images/1.gif);
+    background-position: center;
+    background-size: cover;
+}
+.m1{
+    background-image: url(/src/images/1.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.m2{
+    background-image: url(/src/images/2.gif);
+    background-position: 40rem 5rem;
+    background-size: cover;
+}
+
+.m3{
+    background-image: url(/src/images/3.gif);
+    background-position: 20rem 5rem ;
+    background-size: cover;
+}
+
+.m4{
+    background-image: url(/src/images/4.gif);
+    background-position: 0rem 10rem ;
+    background-size: cover;
+}
+
+.m5{
+    background-image: url(/src/images/5.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.skype {
+    width: 80px;
+    height: 70px;
+}
+
+.logo{
+    width: 16rem;
+    height: 10rem;
+}
+
+.rownav {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnnav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navy-blue {
+    background-color: rgb(33, 37, 41);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-white-light0{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-white-light1{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-white-light2{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.white {
+    color: white;
+}
+
+.white-light {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.black {
+    color: black;
+}
+
+.black-light {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.small8{
+    font-size: 0.8rem;
+}
+
+.wh100 {
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown{
+    float: left;
+}
+
+.wh2{
+    width: 3rem;
+    height: 3rem;
+}
+
+.text-align{
+    align-content: flex-start;
+}
+
+.ml2{
+    margin-left: 2rem;
+}
+
+.radius-02rem {
+    border-radius: 0.2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

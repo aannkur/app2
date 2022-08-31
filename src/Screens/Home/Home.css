@@ -1,0 +1,135 @@
+.bg-main{
+    background-image: url(/src/images/bg-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg {
+    background-image: url(/src/images/bg-home.jpg);
+    background-position: 25rem 56rem;
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+}
+
+.tech-carousel {
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    padding: 0.5rem;
+}
+
+.carousel-tech-image {
+    width: 180px;
+    height: 180px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.navy-blue {
+    background-color: rgb(33, 37, 41);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.white-light {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.black {
+    color: black;
+}
+
+.black-light {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.wh16{
+    width: 16rem;
+    height: 16rem;
+}
+
+.wh14{
+    width: 14rem;
+    height: 14rem;
+}
+
+.wp120 {
+    width: 120px;
+    height: 120px;
+}
+
+.wh100 {
+    width: 100%;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.no-border {
+    border-radius: none;
+    outline: none;
+}
+
+.shadow {
+    box-shadow: 2px 4px 6px 0.5px rgba(128, 128, 128, 0.425);
+    ;
+}
+
+.radius-2rem {
+    border-radius: 2rem;
+}
+
+.radius-1rem {
+    border-radius: 1rem;
+}
+
+.overflow{
+    object-fit: cover;
+}
+
+.maxwh{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wh{
+    width: 18rem;
+    height: 10rem;
+}
+
+.radius-top1rem{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
