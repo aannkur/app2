@@ -1,0 +1,20 @@
+name: Build & Deploy
+on:
+  push:
+   branches: [master]
+   
+jobs:
+  deploy:
+     runs-on: ubuntu-latest
+     steps:
+      - uses: appleboy/ssh-action@master
+        name: executing remote ssh commands using password
+        with:
+         host: ${{secrets.SSH_HOST}}
+         password: ${{secrets.SSH_PASSWORD}}
+         username: ${{secrets.SSH_USERNAME}}
+
+         script: |
+          cd /var/www/html/app3
+              npm install
+              npm run build
