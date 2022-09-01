@@ -24,6 +24,6 @@ jobs:
 
          script: |
           cd /var/www/html/app3
-              npm install
-              npm run build
+              /root/.nvm/versions/node/v14.10.0/bin/npm install
+              /root/.nvm/versions/node/v14.10.0/bin/npm run build
 
